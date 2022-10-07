@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>projeto cafeteria</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="CAFETERIA.css">
+
+
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">home</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Padaria</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Sobre nós</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">lanches</a>
+  </div>
+</nav>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-l l-grey">
+    <div class="w3-col s3">
+      <a href="./home.html" class="w3-button w3-block w3-light-green w3-text-white">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./padaria.html" class="w3-button w3-block w3-light-blue w3-text-white ">padaria</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./quem somos.html" class="w3-button w3-block w3 w3-green w3-text-white">Sobre nós</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./lanches.html" class="w3-button w3-block w3 w3-orange w3-text-white">Lanches</a>
+    </div>
+      </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>Cafeteria Brazil</b></h1>
+    <p>A melhor cafeteria da cidade</p>
+  </div>
+
+  
+  
+  <!-- produtos -->
+  <div class="w3-row-padding" id="nossasdelicias">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nossas Delicias</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="choco pizza.jpg" alt="Choco-pizza" style="width:100%">
+        <div class="w3-container">
+          <h3>Choco-pizza</h3>
+          <p class="w3-opacity"></p>
+          <p> uma deliciosa pizza de chocolate,para adoçar sua vida </p>
+          <p><button class="w3-button w3-red w3-block">Comprar</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="esfirra.png" alt="Esfirra" style="width:100%">
+        <div class="w3-container">
+          <h3>Esfirra de carne</h3>
+          <p class="w3-opacity"></p>
+          <p>Uma delicia arabe,prove a nossa esfirra de carne, O sabor que derrete na sua boca.</p>
+          <p><button class="w3-button w3-red w3-block">Comprar</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="capuccino-con-base-de.jpg" alt="capuccino" style="width:100%">
+        <div class="w3-container">
+          <h3>capuccino</h3>
+          
+          <p> cappuccino classic, cappuccino avelã e cappuccino de doce de leite.</p>
+          <p><button class="w3-button w3-red w3-block">comprar</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- produtos parte 2 -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+    
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="salgados.jpg" alt="salgados" style="width:100%">
+        <div class="w3-container">
+          <h3>Salgados</h3>
+          <p class="w3-opacity"></p>
+          <p> variedade de salgados fritos,congelados ou assados  <p>
+            <button class="w3-button w3-red w3-block">Comprar</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="cookie-classico-1024x576.jpg" alt="Cookie" style="width:100%">
+        <div class="w3-container">
+          <h3>Cookies</h3>
+          <p class="w3-opacity"></p>
+          <p>O cookie saboroso, feito de chocolate, ótimo acompanhamento para .</p>
+          <p><button class="w3-button w3-red w3-block">Comprar</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="sucos.jpg"alt="suco" style="width:100%">
+        <div class="w3-container">
+          <h3>Sucos</h3>
+          
+          <p>Sucos da poupa da frutar, de diversos sabores!</p>
+          <p><button class="w3-button w3-red w3-block">comprar</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Contatos</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/raphael.honorato.1" style="text-decoration:none"><i class="fa fa-facebook-official w3-hover-opacity"></a></i>
+    <a href="https://instagram.com/honoratobartender?utm_medium=copy_link" style="text-decoration:none"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <a href="https://twitter.com/VilhenaYasmin"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/sandro-monteiro-420520185"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by Cafeteria Brazil</p>
+</footer>
+
+
+
+
+
+
+</body>
+</html>
